@@ -7,7 +7,7 @@ public class Prob5
 
     for (int i = 1; i <= 20; i++){
       for (int j = 0; j < i; j++){
-         System.out.println(" ");
+         System.out.println(i + " ");
       }
       System.out.println();
      }
