@@ -1,7 +1,15 @@
 import java.util.Scanner;
 
-public class Prob5 {
-  public static void main(String[] args){
+public class Prob5 
+{
+  public static void main(String[] args)
+  {
 
+    for (int i = 1; i <= 20; i++){
+      for (int j = 0; j < i; j++){
+         System.out.println(" ");
+      }
+      System.out.println();
+     }
   }
 }
